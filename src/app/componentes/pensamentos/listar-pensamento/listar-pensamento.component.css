@@ -1,18 +1,67 @@
-.mural {
+.header{
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
-  margin: 1rem 0 2rem;
-}
+  align-items: center;
+  height: 20vh; 
+} 
 
-.d-flex{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+.textMural{
+  width: 378px;
+  height: 58px;
+  color: #154580;
 }
+ 
+ .botao {
+   width: 300px;
+   height: 50px;
+   top: 200px;
+   left: 621px;
+   border-radius: 10px;
+   background-color: #154580;
+   color: white;
 
-.sem-pensamentos {
-  text-align: center;
-  padding: 2rem 0 5rem;
-}
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: center;
+
+ }
+ 
+
+ .ff-inter {
+
+   width: 378px;
+   height: 58px;
+   top: 528px;
+   left: 621px;
+   font-family: Inter;
+
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 58px;
+   letter-spacing: 0em;
+   text-align: center;
+
+
+ }
+
+ .mural {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   justify-content: center;
+   margin: 1rem 0 2rem;
+ }
+
+ .d-flex {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+ }
+
+ .sem-pensamentos {
+   text-align: center;
+   padding: 2rem 0 5rem;
+ }
